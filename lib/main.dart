@@ -47,7 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: GoogleMap(
-          initialCameraPosition: CameraPosition(target: LatLng(31, 41))),
+          initialCameraPosition: CameraPosition(
+              target: LatLng(37.43296265331129, -122.08832357078792))),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
